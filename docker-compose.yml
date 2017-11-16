@@ -1,0 +1,7 @@
+version: '2'
+services:
+  zap:
+    build: .
+    env_file: .env
+    volumes:
+      - ./output:/output
